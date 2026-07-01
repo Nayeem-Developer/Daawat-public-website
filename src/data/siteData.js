@@ -17,6 +17,7 @@ export const primaryNav = [
 ]
 
 export const policyLinks = [
+  { label: 'Account Deletion', to: '/account-deletion' },
   { label: 'Privacy Policy', to: '/privacy-policy' },
   { label: 'Terms & Conditions', to: '/terms-and-conditions' },
   {

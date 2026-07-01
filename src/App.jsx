@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
+import AccountDeletion from './pages/AccountDeletion.jsx'
 import CancellationRefundPolicy from './pages/CancellationRefundPolicy.jsx'
 import Contact from './pages/Contact.jsx'
 import DeliveryPolicy from './pages/DeliveryPolicy.jsx'
@@ -42,6 +43,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/account-deletion" element={<AccountDeletion />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route
